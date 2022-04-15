@@ -1,0 +1,155 @@
+country_event = { #Recruit Adm Advisor
+	id = cat.1
+	title = cat.1.title
+	desc = cat.1.desc
+	picture = AULIC_COUNCIL_eventPicture
+
+	is_triggered_only = yes
+
+	option {
+		name = cat.1.a
+
+		add_adm_power = -25
+		create_advisor = philosopher
+	}
+	option {
+		name = cat.1.b
+
+		add_adm_power = -25
+		create_advisor = natural_scientist
+	}
+	option {
+		name = cat.1.c
+
+		add_adm_power = -25
+		create_advisor = artist
+	}
+	option {
+		name = cat.1.d
+
+		add_adm_power = -25
+		create_advisor = treasurer
+	}
+	option {
+		name = cat.1.e
+
+		add_adm_power = -25
+		create_advisor = theologian 
+	}
+	option {
+		name = cat.1.f
+
+		add_adm_power = -25
+		create_advisor = master_of_mint
+	}
+	option {
+		name = cat.1.g
+
+		add_adm_power = -25
+		create_advisor = inquisitor
+	}
+}
+
+country_event { #Recruit Dip advisor
+	id = cat.2
+	title = cat.2.title
+	desc = cat.2.desc
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option {
+		name = cat.2.a
+
+		add_dip_power = -25
+		create_advisor = statesman
+	}
+	option {
+		name = cat.2.b
+
+		add_dip_power = -25
+		create_advisor = naval_reformer
+	}
+	option {
+		name = cat.2.c
+
+		add_dip_power = -25
+		create_advisor = trader
+	}
+	option {
+		name = cat.2.d
+
+		add_dip_power = -25
+		create_advisor = spymaster
+	}
+	option {
+		name = cat.2.e 
+
+		add_dip_power = -25
+		create_advisor = colonial_governor
+	}
+	option {
+		name = cat.2.f
+
+		add_dip_power = -25
+		create_advisor = diplomat
+	}
+	option {
+		name = cat.2.g
+
+		add_dip_power = -25
+		create_advisor = navigator
+	}
+}
+
+country_event { #Recruit Mil Advisor 
+	id = cat.3
+	title = cat.3.title
+	desc = cat.2.desc
+	picture = GENERALS_DISCUSSING_eventPicture
+
+	is_triggered_only = yes
+
+	option {
+		name = cat.3.a
+
+		add_mil_power = -25
+		create_advisor = army_reformer
+	}
+	option {
+		name = cat.3.b
+
+		add_mil_power = -25
+		create_advisor = army_organiser
+	}
+	option {
+		name = cat.3.c
+
+		add_mil_power = -25
+		create_advisor = commandant
+	}
+	option {
+		name = cat.3.d
+
+		add_mil_power = -25
+		create_advisor = quartermaster
+	}
+	option {
+		name = cat.3.e
+
+		add_mil_power = -25
+		create_advisor = recruitmaster
+	}
+	option {
+		name = cat.3.f
+
+		add_mil_power = -25
+		create_advisor = fortification_expert
+	}
+	option {
+		name = cat.3.g
+
+		add_mil_power = -25
+		create_advisor = grand_captain
+	}
+}
