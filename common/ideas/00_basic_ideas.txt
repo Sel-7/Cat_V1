@@ -1183,33 +1183,31 @@ naval_ideas = {
 		}
 	}
 }
-	
+
 colonialism_ideas = {
 	category = DIP 	
 		bonus = {
 			colonists = 1
 		}
-
-		explore_the_unknown = {
-			range = 2
-		}
-		construction_of_our_colonial_empire = {
-			global_colonial_growth = 20
-		}
-		a_trade_between_two_worlds = {
-			trade_efficiency = 0.15
-		}
-		exploit_colonial_money = {
-			global_tariffs = 0.15
-		}
-		increased_trading_between_worlds = {
-			merchants = 2
-		}
-		recruit_native_population = {
-			manpower_recovery_speed = 0.1
-		}
-		trading_empire = {
-			trade_steering = 0.2
-		}
+	explore_the_unknown = {
+		range = 2
+	}
+	construction_of_our_colonial_empire = {
+		global_colonial_growth = 20
+	}
+	a_trade_between_two_worlds = {
+		trade_efficiency = 0.15
+	}
+	exploit_colonial_money = {
+		global_tariffs = 0.15
+	}
+	increased_trading_between_worlds = {
+		merchants = 2
+	}
+	recruit_native_population = {
+		manpower_recovery_speed = 0.1
+	}
+	trading_empire = {
+		trade_steering = 0.2
 	}
 }
