@@ -1182,6 +1182,7 @@ naval_ideas = {
 			}
 		}
 	}
+}
 	
 colonialism_ideas = {
 	category = DIP 	
