@@ -113,7 +113,11 @@ age_of_discovery = {
 				factor = 10
 			}
 		}
-		
+		ab_autonomy_change = {
+			modifier = {
+				global_autonomy = -0.05 
+			}
+		}
 		ab_justified_wars = {
 			modifier = {
 				ae_impact = -0.1
@@ -231,6 +235,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
+
 	}
 }
 
