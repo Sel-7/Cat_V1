@@ -46,7 +46,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3091"			# Crush them!
-		add_prestige = -10
+		add_prestige = 0
 		if = {
 			limit = {
 				tag = LXA
@@ -84,7 +84,7 @@ country_event = {
 		add_legitimacy = 10
 		add_horde_unity = 10
 		add_mandate_large_effect = yes
-		add_stability = 3
+		add_stability = 2
 	}
 }
 
@@ -117,7 +117,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3092"			# Request aid from your allies
-		add_dip_power = -100
+		add_dip_power = 0
 		ai_chance = { factor = 40 }
 	}
 	option = {
@@ -186,7 +186,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA3093"			# Take appropriate measures
 		ai_chance = { factor = 40 }
-		add_adm_power = -25		
+		add_adm_power = -10		
 		event_target:inlaws_province = {
 			pretender_rebels = 1
 		}
@@ -194,9 +194,9 @@ country_event = {
 	option = {
 		name = "EVTOPTB3093"			# Ignore their pathetic attempts
 		ai_chance = { factor = 60 }
-		add_prestige = -20
+		add_prestige = -10
 		event_target:inlaws_province = {
-			add_local_autonomy = 20
+			add_local_autonomy = 5
 		}		
 	}
 }
@@ -266,7 +266,7 @@ country_event = {
 			name = "deserters"
 			duration = 1825
 		}		
-		add_yearly_manpower = -0.25
+		add_yearly_manpower = 0
 	}
 }
 
@@ -360,7 +360,7 @@ country_event = {
 	option = {
 		name = "EVTOPTC6018"				# Start negotiations to minimize the damage
 		add_years_of_income = -0.25
-		add_prestige = -25
+		add_prestige = -10
 		add_legitimacy = 5
 		add_horde_unity = 5
 		add_mandate_effect = yes
