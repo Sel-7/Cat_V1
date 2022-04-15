@@ -81,6 +81,10 @@ country_event = {
 		clr_country_flag = favoured_faction
 		clr_country_flag = dominant_faction
 		clr_country_flag = civil_war_knees_event
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_prestige = 50
 		add_legitimacy = 10
 		add_horde_unity = 10
 		add_mandate_large_effect = yes
@@ -117,7 +121,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3092"			# Request aid from your allies
-		add_dip_power = 0
 		ai_chance = { factor = 40 }
 	}
 	option = {
@@ -185,8 +188,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3093"			# Take appropriate measures
-		ai_chance = { factor = 40 }
-		add_adm_power = -10		
+		ai_chance = { factor = 40 }	
 		event_target:inlaws_province = {
 			pretender_rebels = 1
 		}
@@ -352,14 +354,13 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB6018"				# Support one of the factions
-		add_adm_power = -100
 		add_legitimacy = 10
 		add_horde_unity = 10
 		add_mandate_large_effect = yes
 	}
 	option = {
 		name = "EVTOPTC6018"				# Start negotiations to minimize the damage
-		add_years_of_income = -0.25
+		add_years_of_income = -0.05
 		add_prestige = -10
 		add_legitimacy = 5
 		add_horde_unity = 5
@@ -381,19 +382,10 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA6019"			# There is nothing we can do
-		ai_chance = { factor = 20 }
-		add_stability = -1
-		random_owned_province = {
-			limit = { is_core = ROOT }
-			pretender_rebels = 1
-		}
-	}
-	option = {
 		name = "EVTOPTB6019"			# We will stop this at any cost
 		ai_chance = { factor = 80 }		
-		add_years_of_income = -0.25
-		add_prestige = -25
+		add_years_of_income = -0.05
+		add_prestige = -10
 		add_legitimacy = 5
 		add_horde_unity = 5
 		add_mandate_effect = yes
@@ -415,16 +407,10 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA6020"			# Support one side
-		add_adm_power = -75
-		add_dip_power = -75
 		set_country_flag = favoured_faction
 		add_legitimacy = 5
 		add_horde_unity = 5
 		add_mandate_effect = yes
-	}
-	option = {
-		name = "EVTOPTB6020"			# Don't support any faction
-		add_stability = -1
 	}
 }
 
@@ -556,9 +542,6 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB6023"			# Try to suppress the worst spots
-		add_adm_power = -100
-		add_dip_power = -100
-		add_mil_power = -100
 		add_legitimacy = 5
 		add_horde_unity = 5
 		add_mandate_effect = yes
