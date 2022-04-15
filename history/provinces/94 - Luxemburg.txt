@@ -13,7 +13,6 @@ base_production = 5
 trade_goods = iron
 base_manpower = 2
 add_core = LUX
-fort_15th = yes
 
 
 

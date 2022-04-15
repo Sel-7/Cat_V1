@@ -1210,4 +1210,13 @@ colonialism_ideas = {
 	trading_empire = {
 		trade_steering = 0.2
 	}
+	ai_will_do = {
+		factor = 0.5
+		modifier = {
+			factor = 10
+			num_of_colonies = 1
+		}
+	}
 }
+
+
