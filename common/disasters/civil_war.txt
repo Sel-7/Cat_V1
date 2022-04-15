@@ -105,7 +105,7 @@ civil_war = {
 	
 
 	modifier = {
-		global_unrest = 10
+		global_unrest = 2
 	}	
 	
 	
