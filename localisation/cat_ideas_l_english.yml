@@ -15,4 +15,30 @@ recruit_native_population:0 "Recruit the Native Population"
 recruit_native_population_desc:0 ""
 trading_empire:0 "Begin a Trading Empire"
 trading_empire_desc:0 ""
-#
+#Science Ideas
+science_ideas:0 "Science Ideas"
+#Agricultural Ideas
+agricultural_ideas:0 "Agricultural Ideas"
+#Industrial Ideas
+industrial_ideas:0 "Industrial Ideas"
+#Modernisation Ideas
+modernisation_ideas:0 "Modernisation Ideas"
+#Absolutist Ideas
+absolutist_ideas:0 "Absolutist Ideas"
+#Cultural Ideas
+cultural_ideas:0 "Cultural Ideas"
+#Secularist Ideas
+secularist_ideas:0 "Secularist Ideas"
+#Recruitment Ideas
+recruitment_ideas:0 "Recruitment Ideas"
+#Discipline Ideas
+discipline_ideas:0 "Discipline Ideas"
+#Total War Ideas
+total_war_ideas:0 "Total War Ideas"
+#Fortification Ideas
+fortification_ideas:0 "Fortification Ideas"
+#Siege Ideas
+siege_ideas:0 "Siege Ideas"
+#War State Ideas
+war_state_ideas:0 "War State Ideas"
+
