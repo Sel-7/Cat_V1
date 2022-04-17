@@ -16,12 +16,7 @@ aristocracy_ideas = {
 	}
 
 	trigger = {
-		OR = {
-			has_government_attribute = enables_aristocratic_idea_group
-			government = tribal
-		}
-		NOT = { government = theocracy }
-		NOT = { has_reform = steppe_horde }
+		always = no
 	}
 	
 	noble_knights = {
@@ -227,6 +222,10 @@ indigenous_ideas = {
 innovativeness_ideas = {
 	category = ADM
 
+	trigger = {
+		always = no
+}
+
 	bonus = {
 		advisor_cost = -0.25
 	}
@@ -367,6 +366,11 @@ spy_ideas = {
 
 diplomatic_ideas = {
 	category = DIP
+
+	trigger = {
+		always = no
+}
+
 	bonus = {
 		reduced_stab_impacts = yes
 	}
@@ -411,6 +415,10 @@ diplomatic_ideas = {
 offensive_ideas = {
 	category = MIL
 
+	trigger = {
+		always = no
+}
+
 	bonus = {
 		recover_army_morale_speed = 0.05
 	}
@@ -445,6 +453,10 @@ offensive_ideas = {
 
 defensive_ideas = {
 	category = MIL
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		hostile_attrition = 1
@@ -527,6 +539,10 @@ trade_ideas = {
 
 economic_ideas = {
 	category = ADM
+
+	trigger = {
+		always = no
+}
 
 	bonus = {
 		development_cost = -0.2
@@ -767,6 +783,7 @@ maritime_ideas = {
 
 	trigger = {
 		primitives = no
+		always = no
 	}
 
 	bonus = {
@@ -838,6 +855,10 @@ maritime_ideas = {
 quality_ideas = {
 	category = MIL
 
+	trigger = {
+		always = no
+	}
+
 	bonus = {
 		discipline = 0.05
 	}
@@ -872,6 +893,10 @@ quality_ideas = {
 
 quantity_ideas = {
 	category = MIL
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		land_forcelimit_modifier  = 0.50
@@ -987,6 +1012,10 @@ expansion_ideas = {
 administrative_ideas = {
 	category = ADM
 
+	trigger = {
+		always = no
+}
+
 	bonus = {
 		governing_capacity_modifier = 0.25
 	}
@@ -1024,6 +1053,10 @@ administrative_ideas = {
 
 humanist_ideas = {
 	category = ADM
+
+	trigger = {
+		always = no
+}
 
 	bonus = {
 		idea_cost = -0.1
@@ -1116,7 +1149,7 @@ naval_ideas = {
 	category = MIL
 
 	trigger = {
-		primitives = no
+		always = no
 	}
 
 	bonus = {
