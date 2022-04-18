@@ -10,6 +10,10 @@
 aristocracy_ideas = {
 	category = MIL
 
+	trigger = {
+		always = no
+	}
+
 	bonus = {
 		leader_siege = 1
 		nobles_loyalty_modifier = 0.1
@@ -286,6 +290,10 @@ innovativeness_ideas = {
 religious_ideas = {
 	category = ADM
 
+	trigger = {
+		always = no
+	}
+
 	bonus = {
 		culture_conversion_cost = -0.25
 		brahmins_hindu_loyalty_modifier = 0.1
@@ -335,6 +343,10 @@ religious_ideas = {
 
 spy_ideas = {
 	category = DIP
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		rebel_support_efficiency = 0.50
@@ -505,6 +517,10 @@ defensive_ideas = {
 
 trade_ideas = {
 	category = DIP
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		merchants = 1
@@ -945,6 +961,10 @@ expansion_ideas = {
 	category = ADM
 	important = yes
 
+	trigger = {
+		always = no
+	}
+
 	bonus = {
  		min_autonomy_in_territories = -0.1
 	}
@@ -1111,6 +1131,10 @@ humanist_ideas = {
 
 influence_ideas = {
 	category = DIP
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		unjustified_demands = -0.5
@@ -1349,6 +1373,11 @@ recruitment_ideas = {
 }
 discipline_ideas = {
 	category = MIL   
+
+	trigger = {
+		has_idea_group = recruitment_ideas
+	}
+
 	bonus = {
 		discipline = 0.05
 	}
@@ -1376,7 +1405,15 @@ discipline_ideas = {
 }
 
 total_war_ideas = {
-	category = MIL   
+	category = MIL 
+	
+	trigger = {
+		or = {
+			has_idea_group = fortification_ideas
+			has_idea_group = siege_ideas
+		}
+	}
+
 	bonus = {
 		fire_damage = 0.15
 	}
@@ -1397,7 +1434,8 @@ total_war_ideas = {
 		possible_mil_policy = 1
 	}
 	total_war_idea4 = {
-		drill_gain_modifier = 0.2
+		drill_gain_modifier = 0.5
+		drill_decay_modifier = -0.5
 	}
 	total_war_idea5 = {
 		reinforce_speed = 0.15
@@ -1412,6 +1450,12 @@ total_war_ideas = {
 
 fortification_ideas = {
 	category = MIL   
+
+	trigger = {
+		has_idea_group = discipline_ideas
+		not = { has_idea_group = siege_ideas }
+	}
+
 	bonus = {
 		fire_damage_received = -0.15
 		shock_damage_received = -0.15
@@ -1442,7 +1486,13 @@ fortification_ideas = {
 
 
 siege_ideas = {
-	category = MIL   
+	category = MIL  
+	
+	trigger = {
+		has_idea_group = discipline_ideas
+		not = { has_idea_group = fortification_ideas }
+	}
+
 	bonus = {
 
 	}
@@ -1470,7 +1520,12 @@ siege_ideas = {
 }
 
 war_state_ideas = {
-	category = MIL   
+	category = MIL 
+	
+	trigger = {
+		has_idea_group = total_war_ideas
+	}
+
 	bonus = {
 
 	}
@@ -1485,7 +1540,7 @@ war_state_ideas = {
 		cavalry_cost = 0.2
 	}
 	war_state_idea4 = {
-		
+		yearly_army_professionalism = 0.02
 	}
 	war_state_idea5 = {
 		
