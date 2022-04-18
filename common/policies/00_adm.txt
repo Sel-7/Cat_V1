@@ -41,12 +41,11 @@ the_court_of_wards_and_liveries = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = aristocracy_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
+	
 	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 		
 	global_tax_modifier = 0.10
@@ -94,13 +93,11 @@ formalized_measures = {
 
 
 	potential = {
-		has_idea_group = plutocracy_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = plutocracy_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}	
 
 	global_tax_modifier = 0.10
@@ -127,14 +124,12 @@ agricultural_cultivations = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = quantity_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = quantity_ideas
-	}		
+		always = no
+	}	
 	
 	development_cost = -0.1
 	land_forcelimit_modifier = 0.1
@@ -216,13 +211,11 @@ the_royal_commission_act = {
 
 
 	potential = {
-		has_idea_group = spy_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 
 	yearly_corruption = -0.1
@@ -237,13 +230,11 @@ edict_of_resistance = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = defensive_ideas
-		has_idea_group = religious_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = defensive_ideas
-		full_idea_group = religious_ideas
+		always = no
 	}
 
 
@@ -278,13 +269,11 @@ public_welfare_act = {
 
 
 	potential = {
-		has_idea_group = defensive_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = defensive_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 
 	global_unrest = -1
@@ -320,13 +309,11 @@ the_spy_discovery_act = {
 
 
 	potential = {
-		has_idea_group = defensive_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = defensive_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 
 	yearly_corruption = -0.1
@@ -382,13 +369,11 @@ the_tolerance_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = plutocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = plutocracy_ideas
+		always = no
 	}
 
 	tolerance_heretic = 2
@@ -423,13 +408,11 @@ vassal_taxation_policy = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = offensive_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 
 	vassal_income = 0.5
@@ -485,13 +468,11 @@ land_inheritance_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = plutocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = plutocracy_ideas
+		always = no
 	}
 
 	global_tax_modifier = 0.1
@@ -525,13 +506,11 @@ the_witchcraft_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = aristocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = aristocracy_ideas
+		always = no
 	}
 	
 	global_unrest = -1
@@ -689,14 +668,12 @@ exchange_of_ideas = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = trade_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = trade_ideas
-	}	
+		always = no
+	}
 	
 	idea_cost = -0.1
 	global_institution_spread = 0.2
@@ -710,13 +687,11 @@ vassal_obligations_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = influence_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}	
 	
 	vassal_income = 0.25
@@ -772,13 +747,11 @@ vassal_integration_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = influence_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}	
 	
 	diplomatic_annexation_cost = -0.2
@@ -854,13 +827,11 @@ enlightened_aristocracy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = aristocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = aristocracy_ideas
+		always = no
 	}	
 	
 	production_efficiency = 0.1
@@ -916,13 +887,11 @@ the_liberation_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = offensive_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = offensive_ideas
+		always = no
 	}	
 	
 	global_unrest = -1
@@ -954,13 +923,11 @@ visionary_thinkers = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = quality_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = quality_ideas
+		always = no
 	}	
 	
 	prestige = 0.5
@@ -975,13 +942,11 @@ the_transportation_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}	
 	
 	global_trade_goods_size_modifier = 0.1
@@ -1016,13 +981,11 @@ harbour_administration = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 
 	embracement_cost = -0.2
@@ -1098,13 +1061,11 @@ cultural_recognition_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = plutocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = plutocracy_ideas
+		always = no
 	}	
 	
 	num_accepted_cultures = 1
@@ -1119,13 +1080,11 @@ the_licensing_of_the_press_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = aristocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = aristocracy_ideas
+		always = no
 	}
 
 	legitimacy = 1
@@ -1143,13 +1102,11 @@ the_dissolution_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 	
 	global_tax_modifier = 0.15
@@ -1205,13 +1162,11 @@ the_statute_of_monopolies = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 
 	production_efficiency = 0.1
@@ -1309,13 +1264,11 @@ cultural_understanding = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = spy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = spy_ideas
+		always = no
 	}	
 	
 	global_unrest = -1
@@ -1350,13 +1303,11 @@ the_citrus_statute = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = maritime_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = maritime_ideas
+		always = no
 	}	
 	
 	global_tax_modifier = 0.10
@@ -1476,13 +1427,11 @@ anti_heresy_act = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = offensive_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
+		always = no
 	}
 	
 	religious_unity = 0.2
@@ -1517,13 +1466,11 @@ steppe_supplies_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	global_manpower_modifier = 0.1
@@ -1543,13 +1490,11 @@ to_the_ground_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	raze_power_gain = 0.33
@@ -1564,13 +1509,11 @@ calming_the_tides_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	global_unrest = -2
@@ -1602,13 +1545,11 @@ esprit_de_corps_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = horde_gov_ideas
+		always = no
 	}
 	
 	years_of_nationalism = -5
@@ -1640,13 +1581,11 @@ otto_per_mille = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = theocracy_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = theocracy_gov_ideas
+		always = no
 	}
 	
 	core_creation = -0.05
@@ -1719,13 +1658,11 @@ omnism_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = theocracy_gov_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = theocracy_gov_ideas
+		always = no
 	}
 	
 	tolerance_heathen = 2
@@ -1801,13 +1738,11 @@ administration_of_sacred_land_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = indigenous_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = indigenous_ideas
+		always = no
 	}
 	
 	land_maintenance_modifier = -0.1
@@ -1887,13 +1822,11 @@ ancestor_worship_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = indigenous_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = indigenous_ideas
+		always = no
 	}
 	
 	missionaries = 1

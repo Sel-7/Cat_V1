@@ -2,13 +2,11 @@ the_recruiting_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = maritime_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 	
 	global_sailors_modifier = 0.25
@@ -89,12 +87,11 @@ the_importation_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
+	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 	
 	trade_efficiency = 0.20
@@ -129,13 +126,11 @@ colonial_expansions = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}		
 
 	global_colonial_growth = 20
@@ -159,13 +154,11 @@ beneficial_neglect = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = innovativeness_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = innovativeness_ideas
+		always = no
 	}
 
 	colonist_placement_chance = 0.05
@@ -210,13 +203,11 @@ restrictions_for_colonies = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = religious_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = religious_ideas
+		always = no
 	}
 
 
@@ -318,13 +309,11 @@ naval_infrastructure_act = {
 new_naval_tactis = {
 	monarch_power = DIP
 	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = maritime_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = maritime_ideas
+		always = no
 	}
 
 	leader_naval_manuever = 1
@@ -379,13 +368,11 @@ trade_connection_policy = {
 naval_secrecy_act = {
 	monarch_power = DIP
 	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = defensive_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = defensive_ideas
+		always = no
 	}
 
 	global_spy_defence = 0.2
@@ -615,13 +602,11 @@ professional_diplomatic_corps = {
 colonial_companies_act = {
 	monarch_power = DIP
 	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = plutocracy_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = plutocracy_ideas
+		always = no
 	}
 	
 	range = 0.20
@@ -668,13 +653,11 @@ chaplains_of_the_fleet = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = maritime_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = maritime_ideas
+		always = no
 	}
 	
 	naval_morale = 0.1
@@ -693,13 +676,11 @@ multilingual_diplomats = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = diplomatic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = diplomatic_ideas
+		always = no
 	}	
 	
 	num_accepted_cultures = 1
@@ -714,13 +695,11 @@ native_assimilation_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}	
 	
 	global_colonial_growth = 10
@@ -743,13 +722,11 @@ the_foreign_aid_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = influence_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = influence_ideas
+		always = no
 	}	
 	
 	diplomatic_upkeep = 1
@@ -805,13 +782,11 @@ skilled_cartographers = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}	
 	
 	global_naval_engagement_modifier = 0.2
@@ -943,13 +918,11 @@ the_cooperation_act = {
 record_keeping_act = {
 	monarch_power = DIP
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = diplomatic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = diplomatic_ideas
+		always = no
 	}
 
 	diplomats = 1
@@ -964,12 +937,11 @@ colonial_administration_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
+	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}
 	
 	global_colonial_growth = 10
@@ -993,13 +965,11 @@ naval_school_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = maritime_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = maritime_ideas
+		always = no
 	}
 
 	navy_tradition = 1
@@ -1019,13 +989,11 @@ the_foreign_support_act = {
 
 
 	potential = {
-		has_idea_group = spy_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 
 	rebel_support_efficiency = 0.50
@@ -1040,12 +1008,11 @@ the_stamp_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
+	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}
 	
 	global_tariffs = 0.25
@@ -1191,13 +1158,11 @@ letters_of_marque = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = offensive_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}
 	
 	privateer_efficiency = 0.5
@@ -1241,13 +1206,11 @@ steppe_nomad_migrations_policy = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = horde_gov_ideas
-		has_idea_group = exploration_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = exploration_ideas
+		always = no
 	}
 	
 	colonist_placement_chance = 0.05

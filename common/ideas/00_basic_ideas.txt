@@ -143,6 +143,10 @@ horde_gov_ideas = {
 theocracy_gov_ideas = {
 	category = MIL
 	
+	trigger = {
+		always = no
+	}
+
 	bonus = {
 		global_heretic_missionary_strength = 0.01
 		church_loyalty_modifier = 0.1
@@ -186,6 +190,10 @@ theocracy_gov_ideas = {
 
 indigenous_ideas = {
 	category = MIL
+
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		global_institution_spread = 0.25
@@ -1389,7 +1397,7 @@ total_war_ideas = {
 		possible_mil_policy = 1
 	}
 	total_war_idea4 = {
-		global_regiment_recruit_speed = 0.2
+		drill_gain_modifier = 0.2
 	}
 	total_war_idea5 = {
 		reinforce_speed = 0.15
@@ -1424,10 +1432,10 @@ fortification_ideas = {
 		global_garrison_growth = 0.35
 	}
 	fortification_idea6 = {
-		military_drill = 0.125
+		artillery_power	= 0.15
 	}
 	fortification_idea7 = {
-		land_maintenance_modifier = -0.05
+		defensiveness = 0.33
 	}
 }
 
@@ -1439,19 +1447,19 @@ siege_ideas = {
 
 	}
 	siege_idea1 = {
-		
+		siege_ability = 0.2	
 	}
 	siege_idea2 = {
-		
+		artillery_power = 0.15
 	}
 	siege_idea3 = {
-		
+		backrow_artillery_damage = 0.1
 	}
 	siege_idea4 = {
-		
+		discipline = 0.05
 	}
 	siege_idea5 = {
-		
+		fire_damage = 0.1
 	}
 	siege_idea6 = {
 		
@@ -1467,13 +1475,14 @@ war_state_ideas = {
 
 	}
 	war_state_idea1 = {
-
+		army_tradition = 0.5
 	}
 	war_state_idea2 = {
-		
+		army_tradition_decay = 0.5
 	}
 	war_state_idea3 = {
-		
+		infantry_cost = 0.2
+		cavalry_cost = 0.2
 	}
 	war_state_idea4 = {
 		

@@ -53,13 +53,11 @@ the_provincial_taxation_system = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = quantity_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = quantity_ideas
+		always = no
 	}
 	
 	land_maintenance_modifier = -0.05
@@ -103,13 +101,11 @@ the_liquor_act = {
 	
 	
 	potential = {
-		has_idea_group = quality_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}	
 	
 	recover_army_morale_speed = 0.15
@@ -124,13 +120,11 @@ horse_artillery = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = offensive_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 	artillery_power = 0.1
 
@@ -326,13 +320,11 @@ military_zeal_act = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = quality_ideas
-		has_idea_group = religious_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = religious_ideas
+		always = no
 	}
 	
 	land_morale = 0.05
@@ -351,13 +343,11 @@ field_priests = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = quantity_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = quantity_ideas
+		always = no
 	}
 
 	land_morale = 0.1
@@ -588,13 +578,11 @@ zealous_captains = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = religious_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = religious_ideas
+		always = no
 	}	
 	
 	sunk_ship_morale_hit_recieved = -0.10
@@ -815,12 +803,11 @@ weapon_quality_standards = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = quality_ideas
+		always = no
 	}
+	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = quality_ideas
+		always = no
 	}
 	
 	discipline = 0.05
@@ -1115,13 +1102,11 @@ omne_datum_optimum_policy = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = theocracy_gov_ideas
-		has_idea_group = administrative_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = administrative_ideas
+		always = no
 	}
 
 	manpower_in_true_faith_provinces = 0.2
@@ -1140,13 +1125,11 @@ wielders_of_the_flaming_sword_policy = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = theocracy_gov_ideas
-		has_idea_group = religious_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = religious_ideas
+		always = no
 	}
 
 	land_morale = 0.05
@@ -1165,13 +1148,11 @@ the_three_sisters_policy = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = indigenous_ideas
-		has_idea_group = economic_ideas
+		always = no
 	}
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = economic_ideas
+		always = no
 	}
 
 	land_morale = 0.05
