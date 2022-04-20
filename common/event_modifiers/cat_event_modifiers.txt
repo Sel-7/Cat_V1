@@ -1,0 +1,4 @@
+cat_mil_reform_cd = {
+	land_morale = 0.001
+	naval_morale = 0.001
+}
