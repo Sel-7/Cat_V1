@@ -2,3 +2,9 @@ cat_mil_reform_cd = {
 	land_morale = 0.001
 	naval_morale = 0.001
 }
+cat_commandant_cd = {
+	discipline = 0.001
+}
+cat_grand_captain_cd = {
+	land_morale = 0.001
+}
