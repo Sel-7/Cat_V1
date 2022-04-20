@@ -1380,9 +1380,6 @@ recruitment_ideas = {
 discipline_ideas = {
 	category = MIL   
 
-	trigger = {
-		has_idea_group = recruitment_ideas
-	}
 
 	bonus = {
 		discipline = 0.05
@@ -1412,13 +1409,6 @@ discipline_ideas = {
 
 total_war_ideas = {
 	category = MIL 
-	
-	trigger = {
-		or = {
-			has_idea_group = fortification_ideas
-			has_idea_group = siege_ideas
-		}
-	}
 
 	bonus = {
 		fire_damage = 0.15
@@ -1457,11 +1447,6 @@ total_war_ideas = {
 fortification_ideas = {
 	category = MIL   
 
-	trigger = {
-		has_idea_group = discipline_ideas
-		not = { has_idea_group = siege_ideas }
-	}
-
 	bonus = {
 		fire_damage_received = -0.15
 		shock_damage_received = -0.15
@@ -1493,11 +1478,6 @@ fortification_ideas = {
 
 siege_ideas = {
 	category = MIL  
-	
-	trigger = {
-		has_idea_group = discipline_ideas
-		not = { has_idea_group = fortification_ideas }
-	}
 
 	bonus = {
 
@@ -1527,10 +1507,6 @@ siege_ideas = {
 
 war_state_ideas = {
 	category = MIL 
-	
-	trigger = {
-		has_idea_group = total_war_ideas
-	}
 
 	bonus = {
 
