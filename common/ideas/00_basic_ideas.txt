@@ -290,10 +290,6 @@ innovativeness_ideas = {
 religious_ideas = {
 	category = ADM
 
-	trigger = {
-		always = no
-	}
-
 	bonus = {
 		culture_conversion_cost = -0.25
 		brahmins_hindu_loyalty_modifier = 0.1
@@ -343,10 +339,6 @@ religious_ideas = {
 
 spy_ideas = {
 	category = DIP
-
-	trigger = {
-		always = no
-	}
 
 	bonus = {
 		rebel_support_efficiency = 0.50
@@ -517,10 +509,6 @@ defensive_ideas = {
 
 trade_ideas = {
 	category = DIP
-
-	trigger = {
-		always = no
-	}
 
 	bonus = {
 		merchants = 1
@@ -961,10 +949,6 @@ expansion_ideas = {
 	category = ADM
 	important = yes
 
-	trigger = {
-		always = no
-	}
-
 	bonus = {
  		min_autonomy_in_territories = -0.1
 	}
@@ -1131,10 +1115,6 @@ humanist_ideas = {
 
 influence_ideas = {
 	category = DIP
-
-	trigger = {
-		always = no
-	}
 
 	bonus = {
 		unjustified_demands = -0.5
@@ -1368,10 +1348,10 @@ recruitment_ideas = {
 		merc_maintenance_modifier = -0.25
 	}
 	recruitment_idea5 = {
-		general_cost = 0.5
+		general_cost = -0.5
 	}
 	recruitment_idea6 = {
-		global_supply_limit_modifier = 0.5
+		reinforce_cost_modifier = -0.5
 	}
 	recruitment_idea7 = {
 		global_manpower_modifier = 0.5
