@@ -141,16 +141,18 @@ can_burn_colony = {
 }
 
 can_colonize_province = {
-	tooltip = "cat_tooltip_cn_access"
-	potential = {
-		FROM = {
-			is_colonial_nation = yes
+	condition = {
+		tooltip = "cat_tooltip_cn_access"
+		potential = {
+			FROM = {
+				is_colonial_nation = yes
+			}
 		}
-	}
-	allow = {
-		from = {
-			capital_scope = {
-				colonial_region = ROOT
+		allow = {
+			from = {
+				capital_scope = {
+					colonial_region = ROOT
+				}
 			}
 		}
 	}
