@@ -1,7 +1,3 @@
-owner = ATA
-controller = ATA
-add_core = ATA
-is_city = yes
 culture = choctaw
 religion = totemism
 capital = "Tohome"
