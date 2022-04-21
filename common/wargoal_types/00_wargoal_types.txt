@@ -779,9 +779,23 @@ take_colony = {
 		prestige_factor = 0.5
 		peace_cost_factor = 0.25
 		peace_cost_factor_non_allowed_treaty = 1.25
-		
+		allowed_provinces_are_eligible = yes
 		allowed_provinces = {
-			colony_claim = ROOT
+			colony_claim = yes
+			is_colony = yes
+			colonial_region = colonial_australia
+			colonial_region = colonial_brazil
+			colonial_region = colonial_california
+			colonial_region = colonial_canada
+			colonial_region = colonial_caribbean
+			colonial_region = colonial_cascadia
+			colonial_region = colonial_columbia
+			colonial_region = colonial_eastern_america
+			colonial_region = colonial_la_plata
+			colonial_region = colonial_louisiana
+			colonial_region = colonial_mexico
+			colonial_region = colonial_peru
+
 		}
 		
 		peace_options = {

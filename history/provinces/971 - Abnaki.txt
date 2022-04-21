@@ -1,8 +1,8 @@
 #971 - Abnaki
 
-add_core = PEN
-owner = PEN
-controller = PEN
+add_core = 
+owner = 
+controller = 
 culture = abenaki
 religion = totemism
 capital = "Abnaki"
