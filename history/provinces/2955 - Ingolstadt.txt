@@ -11,7 +11,7 @@ trade_goods = wine #Would shift to beer over time
 base_manpower = 3
 capital	= "Ingolstadt" 
 is_city = yes
-hre = yes
+hre = no
 
 
 

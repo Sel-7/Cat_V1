@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 4
 fort_15th = yes
 is_city = yes
-hre = yes
+hre = no
 add_core = MUN
 
 

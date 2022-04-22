@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-hre = yes
+hre = no
 
 1511.9.6 = { owner = KLE controller = KLE add_core = KLE } # John III of Cleves inherits Berg through his marriage to Maria of Jülich-Berg
 1545.1.1 = { fort_15th = yes }

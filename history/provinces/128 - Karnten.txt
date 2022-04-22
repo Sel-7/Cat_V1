@@ -13,7 +13,7 @@ base_manpower = 3
 fort_15th = yes #Hochosterwitz Castle
 capital = "Klagenfurt" 
 is_city = yes
-hre = yes
+hre = no
 
 
 

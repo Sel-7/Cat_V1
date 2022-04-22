@@ -10,7 +10,7 @@ trade_goods = cloth	#fustians
 base_manpower = 4
 capital = "Augsburg"
 is_city = yes
-hre = yes
+hre = no
 
 
 

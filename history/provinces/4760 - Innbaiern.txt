@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 2
 capital	= "Braunau am Inn" 
 is_city = yes
-hre = yes
+hre = no
 
 
 
