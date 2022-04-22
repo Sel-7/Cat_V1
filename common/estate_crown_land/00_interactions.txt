@@ -42,7 +42,7 @@ interaction = {
 		set_country_flag = recent_land_distribution
     }
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 		modifier = {
 			factor = 0
 				AND = {
@@ -125,24 +125,7 @@ interaction = {
 					days = 5475
 				}
 			}
-		}
-		modifier = {
-			factor = 1000
-			OR = { #Mil 
-				has_estate_privilege = estate_nobles_nobility_primacy
-				has_estate_privilege = estate_maratha_military
-				has_estate_privilege = estate_rajput_military
-			}
-			OR = { #Dip
-				has_estate_privilege = estate_burghers_land_of_commerce
-				has_estate_privilege = estate_jains_diplomacy
-			}
-			OR = { #Adm
-				has_estate_privilege = estate_church_religious_state
-				has_estate_privilege = estate_brahmins_brahmin_governance
-			}
-		}
-	}
+		}	
 }
 
 interaction = {
@@ -301,7 +284,7 @@ interaction = {
 		}
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 		modifier = {
 			factor = 0
 			crown_land_share = 30
@@ -451,9 +434,9 @@ interaction = {
 			}
 		}
 			modifier = {
-				factor = 1000
+				factor = 0
 				estate_loyalty >= 50 
-				has_country_flag =  recent_land_distribution
+				NOT = { has_country_flag =  recent_land_distribution }
 			}
 		}
 	}

@@ -1702,23 +1702,29 @@ country_event = {
 
 	option = {
 		name = "flavor_fra.6.a"
+
+		177 = {
+			cede_province = FRA
+		}
+		1879 = {
+			cede_province = FRA
+		}
+		4385 = {
+			cede_province = FRA
+		}
+		168 = {
+			cede_province = FRA
+		}
+		167 = {
+			cede_province = FRA
+		}
+
+
 		ai_chance = {
 			factor = 25
 		}
 		tooltip = {
 			177 = {
-				cede_province = FRA
-			}
-			1879 = {
-				cede_province = FRA
-			}
-			4385 = {
-				cede_province = FRA
-			}
-			168 = {
-				cede_province = FRA
-			}
-			167 = {
 				cede_province = FRA
 			}
 			add_truce_with = FRA
