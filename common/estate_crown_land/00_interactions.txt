@@ -128,7 +128,6 @@ interaction = {
 		}
 		modifier = {
 			factor = 1000
-			estate_loyalty >= 50 
 			OR = { #Mil 
 				has_estate_privilege = estate_nobles_nobility_primacy
 				has_estate_privilege = estate_maratha_military
@@ -453,6 +452,7 @@ interaction = {
 		}
 			modifier = {
 				factor = 1000
+				estate_loyalty >= 50 
 				has_country_flag =  recent_land_distribution
 			}
 		}
