@@ -3,7 +3,7 @@
 culture = yuchi
 religion = totemism
 capital = "Tsoyaha"
-trade_goods = grain
+trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,7 +16,7 @@ native_hostileness = 6
 
 discovered_by = north_american
 
-1444.1.1 = { tribal_owner = CCA }
+#1444.1.1 = { tribal_owner = CCA }
 1671.1.1 = { discovered_by = ENG } # Abraham Wood
 
 1600.1.1 = {
