@@ -12,7 +12,7 @@ base_production = 1
 base_manpower = 3
 is_city = yes
 fort_15th = no
-add_core = CEP
+add_core = TUR
 
 
 
