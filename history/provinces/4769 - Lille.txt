@@ -2,7 +2,7 @@
 
 owner = BUR
 controller = BUR
-add_core = FLA
+add_core = BUR
 is_city = yes
 capital = "Lille"
 culture = wallonian
