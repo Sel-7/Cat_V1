@@ -48,6 +48,12 @@ country_event = { #Recruit Adm Advisor
 		add_adm_power = -25
 		create_advisor = inquisitor
 	}
+	option {
+		name = cat.1.h
+
+		add_adm_power = -25
+		create_advisor = master_of_law
+	}
 }
 
 country_event { #Recruit Dip advisor

@@ -1,0 +1,16 @@
+master_of_law = {
+	monarch_power = ADM
+
+	global_autonomy = -0.05
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 5
+			average_autonomy > 0.25 
+		}
+	}
+	ai_will_do = {
+		factor = 5000
+	}
+}
