@@ -480,11 +480,11 @@ tuscany_area = { #5
 }
 
 liguria_area = { #3
-	101 102 2992
+	101 102 2992 1247
 }
 
-corsica_sardinia_area = { #4
-	127 1247 2986 4735
+sardinia_area = { #4
+	127 2986 4735
 }
 
 sicily_area = { #3 # now Eastern Sicily
