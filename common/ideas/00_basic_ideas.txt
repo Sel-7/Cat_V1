@@ -1392,17 +1392,59 @@ colonialism_ideas = {
 cultural_ideas = {
 	category = DIP  
 	bonus = {
-
+		num_accepted_cultures = 3
 	}
-	
+	cultural_idea1 = {
+		same_culture_advisor_cost = -0.3
+	}
+	cultural_idea2 = {
+		advisor_pool = 1
+	}
+	cultural_idea3 = {
+		dip_tech_cost_modifier = -0.05
+	}
+	cultural_idea4 = {
+		culture_conversion_cost = -0.2
+	}
+	cultural_idea5 = {
+		ae_impact = -0.1
+	}
+	cultural_idea6 = {
+		liberty_desire = -0.1
+	}
+	cultural_idea7 = {
+		burghers_loyalty_modifier = 01
+		jains_loyalty_modifier = 0.1
+	}	
 }
 
 secularist_ideas = {
 	category = DIP  
 	bonus = {
-
+		free_dip_policy = 1
 	}
-	
+	secularist_idea1 = {
+		tolerance_heathen = 3
+	}
+	secularist_idea2 = {
+		tolerance_heretic = 3
+	}
+	secularist_idea3 = {
+		tolerance_own = 3
+		manpower_in_true_faith_provinces = 0.5
+	}
+	secularist_idea4 = {
+		religious_unity = 0.25
+	}
+	secularist_idea5 = {
+		monarch_diplomatic_power = 1
+	}
+	secularist_idea6 = {
+		global_autonomy = 0.1
+	}
+	secularist_idea7 = {
+		province_warscore_cost = -0.2
+	}
 }
 
 #Cat Mil Ideas
