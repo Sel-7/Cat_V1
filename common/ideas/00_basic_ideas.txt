@@ -1246,7 +1246,7 @@ agricultural_ideas = {
 		production_efficiency = 0.2
 	}
 	agricultural_idea3 = {
-		development_cost = 0.05
+		development_cost = -0.05
 	}
 	agricultural_idea4 = {
 		global_unrest = -2
@@ -1307,7 +1307,7 @@ modernisation_ideas = {
 		reform_progress_growth = 0.5
 	}
 	modernisation_idea4 = {
-		technology_cost = 0.15
+		-technology_cost = 0.15
 	}
 	modernisation_idea5 = {
 		innovativeness_gain = 0.2
@@ -1335,7 +1335,7 @@ absolutist_ideas = {
 		all_power_cost = -0.075
 	}
 	absolutist_idea3 = {
-		advisor_cost = 0.2
+		advisor_cost = -0.2
 	}
 	absolutist_idea4 = {
 		war_exhaustion = -0.05
