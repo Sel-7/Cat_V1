@@ -1296,6 +1296,7 @@ modernisation_ideas = {
 	category = ADM 
 	bonus = {
 		global_institution_spread = 0.2
+		
 	}
 	modernisation_idea1 = {
 		state_maintenance_modifier = -0.25 
@@ -1307,10 +1308,11 @@ modernisation_ideas = {
 		reform_progress_growth = 0.5
 	}
 	modernisation_idea4 = {
-		-technology_cost = 0.15
+		technology_cost = -0.15
+		innovativeness_gain = 0.2
 	}
 	modernisation_idea5 = {
-		innovativeness_gain = 0.2
+		monarch_admin_power = 1
 	}
 	modernisation_idea6 = {
 		global_tax_modifier = 0.15
@@ -1413,7 +1415,7 @@ cultural_ideas = {
 		liberty_desire = -0.1
 	}
 	cultural_idea7 = {
-		burghers_loyalty_modifier = 01
+		burghers_loyalty_modifier = 0.1
 		jains_loyalty_modifier = 0.1
 	}	
 }
@@ -1579,7 +1581,7 @@ siege_ideas = {
 	category = MIL  
 
 	bonus = {
-		province_warscore_cost = 0.2
+		province_warscore_cost = -0.2
 	}
 	siege_idea1 = {
 		siege_ability = 0.2	
@@ -1626,14 +1628,14 @@ war_state_ideas = {
 		yearly_army_professionalism = 0.02
 	}
 	war_state_idea5 = {
-		regiment_recruit_speed = 0.5
+		regiment_recruit_speed = -0.5
 	}
 	war_state_idea6 = {
-		war_exhaustion = 0.05
+		war_exhaustion = -0.05
 	}
 	war_state_idea7 = {
 		free_mil_policy = 1
-		mil_tech_cost_modifier = 0.05
+		mil_tech_cost_modifier = -0.05
 	}
 }
 
